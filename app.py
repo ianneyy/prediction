@@ -16,7 +16,7 @@ vectorizer = joblib.load("models/final_ph_long_vectorizer.pkl")
 nltk.download("punkt")
 nltk.download("stopwords")
 nltk.download("wordnet")
-
+nltk.download("punkt_tab")
 
 stop_words = set(stopwords.words("english"))
 lemmatizer = WordNetLemmatizer()
