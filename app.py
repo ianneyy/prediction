@@ -8,7 +8,7 @@ from nltk.tokenize import word_tokenize
 import os
 
 
-svm_model = joblib.load("models/ph_long_svm_model.pkl")
+svm_model = joblib.load("models/ph_long_mnb_model.pkl")
 vectorizer = joblib.load("models/final_ph_long_vectorizer.pkl")
 
 
